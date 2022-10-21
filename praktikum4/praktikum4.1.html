@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Desain Layout Web dengan IFRAME </title>
+    <style>
+        header{
+            background-color: aqua; 
+            height: 90px;
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin: center;
+        }
+
+        nav{
+            background-color: aqua;
+            width: 100%;
+            margin: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        article{
+            background-color: white;
+            display: flex;
+            margin: 1em 0em;
+            flex-direction: column;
+            padding: 0em;
+        }
+
+        section{
+            background-color: white;
+            height: 30%;
+            width: 55%;
+            margin: 10px;
+            margin-left: 3%;
+        }
+
+        aside{
+            background-color: pink;
+            height: 200px;
+            width: 100%;
+            margin-left: 3%;
+            margin-top: 1em;
+            justify-content: left;
+            display: flex;
+        }
+
+        .container{
+            display: flex;
+            height: 50%;
+            width: 100%;
+        }
+
+        footer{
+            background-color: black;
+            display: flex;
+            height: 30px;
+            justify-items: center;
+            justify-content: center;
+            padding: 1em 0em ;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Praktikum Pemrograman Web</h1>
+    </header>
+
+    <nav>
+        <b>Syifa Rahmatia Ramadhani (0110122316)-Sistem Informasi 2022</b> 
+    </nav>
+    <div class="container">
+        <article>
+            <section>
+                <ol>
+                    <li><a href="praktikum1.html" target="showframe"> Praktikum1 </a></li>
+                    <li><a href="praktikum2.html" target="showframe"> Praktikum2 </a></li>
+                </ol>
+            </section>
+        </article>
+
+        <aside>
+            <h1> Praktikum 2 </h1>
+        </aside>
+    </div>
+
+    <footer style="color: white">
+         Dev By Rara@2022
+    </footer>
+</body>
+</html>
